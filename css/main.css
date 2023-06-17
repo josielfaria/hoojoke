@@ -1,0 +1,34 @@
+html,
+body {
+  font-family: 'Londrina Solid', cursive !important;
+}
+
+.name-game {
+  font-size: 4rem;
+  color: green;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.canvas-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
